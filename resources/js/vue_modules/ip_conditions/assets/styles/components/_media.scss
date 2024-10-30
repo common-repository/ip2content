@@ -1,0 +1,32 @@
+@media (max-width: 1360px) {
+    #ip_conditions .header {
+        padding: 20px 0 12px 0;
+    }
+}
+
+@media (max-width: 994px) {
+    #ip_conditions {
+        font-size: 14px;
+    }
+
+    #ip_conditions .header {
+        padding: 20px 0 11px 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    #ip_conditions .header {
+        padding: 20px 0 12px 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    #ip_conditions .header {
+        padding: 20px 10px 0 10px;
+    }
+
+    #ip_conditions .logo {
+        right: 5px;
+        top: 5px;
+    }
+}

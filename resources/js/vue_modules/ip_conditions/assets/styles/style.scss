@@ -1,0 +1,55 @@
+@import "components/reset";
+@import "components/global";
+
+#ip_conditions .header {
+    background-color: #00a6dc;
+    height: 140px;
+    position: relative;
+
+    .logo {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .version {
+        font-size: 20px;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+        color: #fff;
+        font-weight: bold;
+    }
+}
+
+#ip_conditions .main {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#ip_conditions .footer {
+    margin-top: auto;
+    padding: 40px;
+    background-color: #8b969c;
+    position: relative;
+    height: 90px;
+
+    &__logo {
+        position: absolute;
+        left: 20px;
+        bottom: 10px;
+    }
+
+    &__button {
+        padding: 10px 40px;
+        background-color: orange;
+        color: #fff;
+        position: absolute;
+        right: 20px;
+        bottom: 35px;
+    }
+}
+
+@import "components/media";

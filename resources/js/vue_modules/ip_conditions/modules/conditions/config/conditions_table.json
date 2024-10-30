@@ -1,0 +1,25 @@
+{
+  "headers": [
+    {
+      "value": "name",
+      "text": "Name"
+    },
+    {
+      "value": "field",
+      "text": "Condition",
+      "align": "center"
+    },
+    {
+      "value": "updated_at",
+      "text": "Last modified",
+      "align": "center"
+
+    },
+    {
+      "value": "active",
+      "text": "Status",
+      "width": 100,
+      "align": "center"
+    }
+  ]
+}

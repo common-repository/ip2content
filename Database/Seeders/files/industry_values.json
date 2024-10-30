@@ -1,0 +1,127 @@
+{
+    "custom": {
+        "name_en": "Custom",
+        "name_de": "Custom",
+        "values": []
+    },
+    "agriculture": {
+        "name_en": "Agriculture",
+        "name_de": "Landwirtschaft",
+        "values": ["1", "2", "3"]
+    },
+    "architecture": {
+        "name_en": "Architecture",
+        "name_de": "Architektur",
+        "values": ["71", "68"]
+    },
+    "automotive": {
+        "name_en": "Automotive",
+        "name_de": "Fahrzeugindustrie",
+        "values": ["29", "30", "45", "46"]
+    },
+    "chemical": {
+        "name_en": "Chemical",
+        "name_de": "Chemieindustrie",
+        "values": ["20"]
+    },
+    "clothing": {
+        "name_en": "Clothing",
+        "name_de": "Mode",
+        "values": ["13", "14", "15"]
+    },
+    "construction": {
+        "name_en": "Construction",
+        "name_de": "Baugewerbe",
+        "values": ["41", "42", "43"]
+    },
+    "electrical": {
+        "name_en": "Electrical",
+        "name_de": "Elektronik",
+        "values": ["26"]
+    },
+    "energy": {
+        "name_en": "Energy",
+        "name_de": "Energie",
+        "values": ["35"]
+    },
+    "finance": {
+        "name_en": "Finance",
+        "name_de": "Finanzwesen",
+        "values": ["64", "65", "66"]
+    },
+    "food": {
+        "name_en": "Food",
+        "name_de": "Nahrungsmittel",
+        "values": ["10", "11", "12"]
+    },
+    "furniture": {
+        "name_en": "Furniture",
+        "name_de": "Möbel",
+        "values": ["31"]
+    },
+    "gastronomy": {
+        "name_en": "Gastronomy",
+        "name_de": "Gastronomie",
+        "values": ["56"]
+    },
+    "health": {
+        "name_en": "Health",
+        "name_de": "Gesundheit",
+        "values": ["86"]
+    },
+    "it_&_software": {
+        "name_en": "IT & Software",
+        "name_de": "IT & Software",
+        "values": ["61", "62", "63"]
+    },
+    "job_placement": {
+        "name_en": "Job placement",
+        "name_de": "Arbeitsvermittlung",
+        "values": ["78"]
+    },
+    "legal": {
+        "name_en": "Legal",
+        "name_de": "Rechtswesen",
+        "values": ["69"]
+    },
+    "logistic_&_transport": {
+        "name_en": "Logistic & Transport",
+        "name_de": "Logistik und Transport",
+        "values": ["53", "49", "52", "50", "51"]
+    },
+    "mechanical_engineering": {
+        "name_en": "Mechanical engineering",
+        "name_de": "Maschinenbau",
+        "values": ["28"]
+    },
+    "media_&_publishing": {
+        "name_en": "Media & Publishing",
+        "name_de": "Rundfunk & Verlagswesen",
+        "values": ["58", "59", "60"]
+    },
+    "packaging": {
+        "name_en": "Packaging",
+        "name_de": "Verpackung",
+        "values": ["16"]
+    },
+    "pharma": {
+        "name_en": "Pharma",
+        "name_de": "Pharma",
+        "values": ["21"]
+    },
+    "science": {
+        "name_en": "Science",
+        "name_de": "Forschung",
+        "values": ["72"]
+    },
+    "steel_industry": {
+        "name_en": "Steel Industry",
+        "name_de": "Stahlindustrie",
+        "values": ["25", "24"]
+    },
+    "tourism": {
+        "name_en": "Tourism",
+        "name_de": "Touristik",
+        "values": ["79"]
+    }
+}

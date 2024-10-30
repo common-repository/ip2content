@@ -1,0 +1,188 @@
+{
+    "alert": {
+        "saved": "Gespeichert",
+        "created": "Erstellt",
+        "deleted": "Gelöscht",
+        "updated": "Aktualisiert",
+        "copied": "Kopiert",
+        "invalid_data": "Ungültige Daten"
+    },
+    "buttons": {
+        "save": "Speichern",
+        "edit": "Bearbeiten",
+        "close": "Schließen",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen"
+    },
+    "switches": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "on": "An",
+        "off": "Aus"
+    },
+    "hints": {
+        "toggle_status": "Status umschalten"
+    },
+    "errors": {
+        "required": "Dieses Feld ist erforderlich",
+        "exact_length": "Erforderliche Länge {length}",
+        "min_length": "Die Anzahl der Zeichen muss größer sein {length}",
+        "max_length": "Die Anzahl der Zeichen muss geringer sein {length}",
+        "is_number": "Muss eine gültige Zahl sein",
+        "max_number": "Die Zahl muss kleiner sein als {number}",
+        "min_number": "Die Zahl muss größer sein als {number}",
+        "invalid_email": "Ungültiges Email-Format"
+    },
+    "paginator": {
+        "rows_per_page": "Objekte pro Seite",
+        "results": "Gesamtanzahl"
+    },
+    "conditions_fields": {
+        "branch_code": "Industrie",
+        "name": "Name der Firma",
+        "size_class": "Firmengröße",
+        "country_code": "Land",
+        "zip": "Postleitzahl",
+        "domain": "Domain",
+        "geo": "Geo",
+        "utm": "UTM",
+        "revenue_class": "Umsatzklasse",
+        "utm_tag": "UTM Wert"
+    },
+    "statistics": {
+        "tab_name": "Ergebnisse",
+        "no_latest_companies": "Noch keine Unternehmen gefunden",
+        "chart_col": {
+            "title": "Ergebnisse",
+            "total_visits": "Besuche insgesamt",
+            "conditions_hits": "Bedingungen getroffen",
+            "detected_companies": "Erkannte Unternehmen",
+            "ip2c_conditions_hits": "IP2C Bedingungen getroffen",
+            "tokens_available": "IP2C Token verfügbar",
+            "tokens_left": "Token übrig",
+            "active_smile": "IP2CONTENT<br>AKTIV!",
+            "inactive_smile": "IP2CONTENT INAKTIV!",
+            "activate": "AKTIVIEREN",
+            "here": "HIER"
+        },
+        "companies_col": {
+            "title": "Neueste erkannte Unternehmen",
+            "columns": {
+                "company": "Firma",
+                "views": "Besuche",
+                "branch_code": "Branchencode"
+            },
+            "footer": {
+                "token_missing": "BEISPIELDATEN! <br> STARTEN SIE DAS TRACKING FÜR IHRE SEITE <br> SETZEN SIE SIE IHREN PERSÖNLICHEN TOKEN EIN",
+                "ip2c_disabled": "BEISPIELDATEN! <br> DAS TRACKING FÜR IHRE SEITE IST DEAKTIVIERT <br> HIER KLICKEN UM DAS TRACKING ZU AKTIVIEREN",
+                "active": "UM ALLE FIRMENDATEN ZU SEHEN AKTIVIEREN SIE",
+                "links": {
+                    "token_missing": "HIER",
+                    "ip2c_disabled": "HIER",
+                    "active": "LeadLab",
+                    "url": "https://wiredminds.de/test"
+                }
+            }
+        },
+        "conditions_col": {
+            "title": "Top Bedingungen",
+            "columns": {
+                "condition": "Bedingung",
+                "views": "Aufrufe",
+                "type": "Typ"
+            },
+            "footer": {
+                "no_conditions": "BEISPIELDATEN! <br> ES GIBT NOCH KEINE BEDINGUNGEN. <br> ERSTELLEN SIE IHRE ERSTE BEDINGUNG",
+                "switch_tab": "UM ALLE BEDINGUNGEN ZU SEHEN, HIER KLICKEN",
+                "links": {
+                    "no_conditions": "HIER",
+                    "switch_tab": "HIER"
+                }
+            }
+        }
+    },
+    "conditions": {
+        "tab_name": "Bedingungen",
+        "form": {
+            "create_title": "Bedingung erstellen",
+            "edit_title": "Bedingung bearbeiten",
+            "shortcode": "Shortcode",
+            "shortcode_description": "Fügen Sie diesen Code in das gewünschte Feld Ihrer Webseite ein",
+            "add_new_content_btn": "Neuen Inhalt hinzufügen",
+            "refresh_contents_list": "Inhaltsliste aktualisieren",
+            "content": {
+                "label": "Dynamischer Inhalt",
+                "placeholder": "Dynamischer Inhalte auswählen",
+                "preview": "Vorschau",
+                "description": "Der dynamischer inhalt wird geladen, wenn die Bedingung mit den ermittelten Werten des Website-Besuchers übereinstimmt."
+            },
+            "default_content": {
+                "label": "Standardinhalt",
+                "placeholder": "Standardinhalt auswählen",
+                "preview": "Vorschau",
+                "description": "Der Standardinhalt wird geladen, wenn keine andere Bedingung mit den erkannten Werten des Website-Besuchers übereinstimmt."
+            },
+            "label": "Name",
+            "condition": "Bedingung",
+            "value": "Wert",
+            "country_code": "Land",
+            "operator": "Operator",
+            "utm_tag": "UTM Tag",
+            "custom_utm_tag": "Benutzerdefiniertes UTM-Tag",
+            "separator_hints": {
+                "comma": "Fügen Sie mehrere Werte mit , (Komma) hinzu. Ex: aaa,bbb,ccc",
+                "zipcode_range": "Fügen Sie einen Postleitzahlenbereich mit - (Bindestrich) und , (Komma) für mehrere Bereiche hinzu. Ex: 3900-3950,4000-4600"
+            },
+            "add_new_condition_btn": "Neue Regel hinzufügen"
+        },
+        "add_condition": "Bedingung hinzufügen",
+        "headers": {
+            "name": "Name",
+            "field": "Bedingung",
+            "updated_at": "Zuletzt bearbeitet",
+            "active": "Status",
+            "shortcode": "Shortcode"
+        },
+        "labels": {
+            "toggle_status": "Bedingungsstatus ändern",
+            "shortcode": "Shortcode kopieren",
+            "edit": "Bedingung bearbeiten",
+            "delete": "Bedingung löschen"
+        },
+        "confirm_delete": "Löschen bestätigen?",
+        "shortcode_dialog": {
+            "title": "Shortcode manuell kopieren.",
+            "subtitle": "Aufgrund fehlender Berechtigungen konnten wir den Shortcode nicht kopieren."
+        }
+    },
+    "settings": {
+        "tab_name": "Einstellungen",
+        "title": "Konfiguration",
+        "ip2c": "IP2Content",
+        "tracking": "LeadLab Analytics",
+        "utm_tracking": "UTM Tracking",
+        "company_detection": "Firmenerkennung",
+        "language": "Sprache",
+        "cache": "Cache aktivieren",
+        "clear_cache": "Cache leeren"
+    },
+    "licenses": {
+        "tab_name": "Lizenzen",
+        "title": "Schlüssel hier einfügen",
+        "ip2c": {
+            "title": "IP2Content Token",
+            "get_token": "ERHALTEN SIE IHREN IP2CONTENT TOKEN",
+            "link": "HIER",
+            "url": "https://ip2content.wiredminds.de/lizenz"
+        },
+        "tracking": {
+            "title": "LeadLab Tracking Code",
+            "get_token": "ERHALTEN SIE IHREN PERSÖNLICHEN LEADLAB TRACKING CODE",
+            "link": "HIER",
+            "url": "https://wiredminds.de/test"
+        }
+    },
+    "faq": {
+        "url": "https://ip2content.wiredminds.de/faq"
+    }
+}

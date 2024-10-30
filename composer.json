@@ -1,0 +1,27 @@
+{
+    "name": "wmip2c/plugin",
+    "type": "project",
+    "require": {
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.5",
+        "myclabs/php-enum": "^1.8",
+        "ext-json": "*",
+        "fire015/flintstone": "^2.3"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "friendsofphp/php-cs-fixer": "^3.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "WMIP2C\\Common\\": "Common/",
+            "WMIP2C\\Database\\": "Database/",
+            "WMIP2C\\Database\\Seeders\\": "Database/Seeders",
+            "WMIP2C\\Database\\Migrations\\": "Database/Migrations",
+            "WMIP2C\\Http\\": "Http/",
+            "WMIP2C\\Admin\\": "Admin/",
+            "WMIP2C\\Public\\": "Public/",
+            "WMIP2C\\PublicSite\\": "Public/"
+        }
+    }
+}

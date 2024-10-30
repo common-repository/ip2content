@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){var e="wmsid",t=localStorage.getItem("wmip2cDataBridge"),a=JSON.parse(t).plugin_api_namespace;if(!sessionStorage.getItem(e)){sessionStorage.setItem(e,"wm"+Date.now());var n=new XMLHttpRequest;n.open("POST","".concat(window.location.origin).concat(a,"statistics/total-views")),n.send()}}),!1);

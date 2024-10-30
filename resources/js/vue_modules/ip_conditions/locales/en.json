@@ -1,0 +1,188 @@
+{
+    "alert": {
+        "saved": "Saved",
+        "created": "Created",
+        "deleted": "Deleted",
+        "updated": "Updated",
+        "copied": "Copied",
+        "invalid_data": "Invalid data"
+    },
+    "buttons": {
+        "save": "Save",
+        "edit": "Edit",
+        "close": "Close",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+    },
+    "switches": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "on": "On",
+        "off": "Off"
+    },
+    "hints": {
+        "toggle_status": "Toggle Status"
+    },
+    "errors": {
+        "required": "This field is required",
+        "exact_length": "Required length {length}",
+        "min_length": "The number of characters must be greater {length}",
+        "max_length": "The number of characters must be less {length}",
+        "is_number": "Must be a valid number",
+        "max_number": "The number must be less than {number}",
+        "min_number": "The number must be greater than {number}",
+        "invalid_email": "Invalid email format"
+    },
+    "paginator": {
+        "rows_per_page": "Items per page",
+        "results": "Total Items"
+    },
+    "conditions_fields": {
+        "branch_code": "Industry",
+        "name": "Company Name",
+        "size_class": "Company Size",
+        "country_code": "Country",
+        "zip": "Zip Code",
+        "domain": "Domain",
+        "geo": "Geo",
+        "utm": "UTM",
+        "revenue_class": "Revenue Class",
+        "utm_tag": "UTM Value"
+    },
+    "statistics": {
+        "tab_name": "results",
+        "no_latest_companies": "No companies detected yet",
+        "chart_col": {
+            "title": "Results",
+            "total_visits": "Total visits",
+            "conditions_hits": "Conditions Hits",
+            "detected_companies": "Detected Companies",
+            "ip2c_conditions_hits": "IP2C Conditions Hits",
+            "tokens_available": "IP2C Tokens Available",
+            "tokens_left": "Tokens Left",
+            "active_smile": "IP2CONTENT<br>ACTIVE!",
+            "inactive_smile": "IP2CONTENT INACTIVE!",
+            "activate": "ACTIVATE",
+            "here": "HERE"
+        },
+        "companies_col": {
+            "title": "Latest Detected Companies",
+            "columns": {
+                "company": "Company",
+                "views": "Views",
+                "branch_code": "Branch Code"
+            },
+            "footer": {
+                "token_missing": "SAMPLE DATA! <br> TO START THE TRACKING FOR YOUR PAGE <br> SET YOUR PERSONAL TOKEN",
+                "ip2c_disabled": "SAMPLE DATA! <br> THE TRACKING FOR YOUR PAGE IS DISABLED <br> TO ACTIVATE THE TRACKING CLICK",
+                "active": "FOR COMPLETE COMPANY DATA ACTIVATE",
+                "links": {
+                    "token_missing": "HERE",
+                    "ip2c_disabled": "HERE",
+                    "active": "LeadLab",
+                    "url": "https://wiredminds.de/en/test"
+                }
+            }
+        },
+        "conditions_col": {
+            "title": "Top Conditions",
+            "columns": {
+                "condition": "Condition",
+                "views": "Views",
+                "type": "Type"
+            },
+            "footer": {
+                "no_conditions": "SAMPLE DATA! <br> THERE ARE NO CONDITIONS YET. <br> START CREATING YOUR FIRST CONDITION",
+                "switch_tab": "TO SEE ALL CONDITIONS CLICK",
+                "links": {
+                    "no_conditions": "HERE",
+                    "switch_tab": "HERE"
+                }
+            }
+        }
+    },
+    "conditions": {
+        "tab_name": "Conditions",
+        "form": {
+            "create_title": "Create Condition",
+            "edit_title": "Edit Condition",
+            "shortcode": "Shortcode",
+            "shortcode_description": "Insert this Code in the desired field of your webpage",
+            "add_new_content_btn": "Add New Content",
+            "refresh_contents_list": "Refresh Content List",
+            "content": {
+                "label": "Dynamic Content",
+                "placeholder": "Select dynamic content",
+                "preview": "Preview",
+                "description": "The dynamic content is loaded, when condition matches the detected values of the website visitor."
+            },
+            "default_content": {
+                "label": "Default Content",
+                "placeholder": "Select default content",
+                "preview": "Preview",
+                "description": "The default content is loaded, when no different condition matches the detected values of the website visitor."
+            },
+            "label": "Label",
+            "condition": "Condition",
+            "value": "Value",
+            "country_code": "Country Code",
+            "operator": "Operator",
+            "utm_tag": "UTM Tag",
+            "custom_utm_tag": "Custom UTM Tag",
+            "separator_hints": {
+                "comma": "Add multiple values using , (comma). Ex: aaa,bbb,ccc",
+                "zipcode_range": "Add zip code range using - (hyphen) and , (comma) for multiple ranges. Ex: 3900-3950,4000-4600"
+            },
+            "add_new_condition_btn": "Add new condition value"
+        },
+        "add_condition": "Add Condition",
+        "headers": {
+            "name": "Name",
+            "field": "Condition",
+            "updated_at": "Last Modified",
+            "active": "Status",
+            "shortcode": "Shortcode"
+        },
+        "labels": {
+            "toggle_status": "Toggle Condition Status",
+            "shortcode": "Copy Shortcode",
+            "edit": "Edit Condition",
+            "delete": "Delete Condition"
+        },
+        "confirm_delete": "Confirm delete?",
+        "shortcode_dialog": {
+            "title": "Copy Shortcode manually.",
+            "subtitle": "Due to lack of the permissions we couldn't copy the shortcode."
+        }
+    },
+    "settings": {
+        "tab_name": "Settings",
+        "title": "Service Configuration",
+        "ip2c": "IP2Content",
+        "tracking": "LeadLab Analytics",
+        "utm_tracking": "UTM Tracking",
+        "company_detection": "Company Detection",
+        "language": "Language",
+        "cache": "Enable Cache",
+        "clear_cache": "Clear Cache"
+    },
+    "licenses": {
+        "tab_name": "Licenses",
+        "title": "Insert keys here",
+        "ip2c": {
+            "title": "IP2Content Token",
+            "get_token": "GET YOUR IP2CONTENT TOKEN",
+            "link": "HERE",
+            "url": "https://ip2content.wiredminds.de/en/licence/"
+        },
+        "tracking": {
+            "title": "LeadLab Tracking Code",
+            "get_token": "GET YOUR PERSONAL LEADLAB TRACKING CODE",
+            "link": "HERE",
+            "url": "https://wiredminds.de/en/test"
+        }
+    },
+    "faq": {
+        "url": "https://ip2content.wiredminds.de/en/faq"
+    }
+}

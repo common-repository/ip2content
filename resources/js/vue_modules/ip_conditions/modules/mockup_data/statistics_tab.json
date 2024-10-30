@@ -1,0 +1,114 @@
+{
+    "results": {
+        "total_views": 0,
+        "total_hits": 0,
+        "ip2c_hits": 0,
+        "companies_detected": 0,
+        "token_limit": 1000,
+        "token_left": 1000
+    },
+    "topDetectedCompanies": [
+        {
+            "company": "Van Dellsen Robotocs Bv",
+            "views": "9",
+            "branch_code": "2.11"
+        },
+        {
+            "company": "Ugine Construction",
+            "views": "2",
+            "branch_code": "3.0.1"
+        },
+        {
+            "company": "Stinger Automotive Ltd.",
+            "views": "9",
+            "branch_code": "2.0"
+        },
+        {
+            "company": "Epiphyte Pharma",
+            "views": "5",
+            "branch_code": "5.1"
+        },
+        {
+            "company": "Banzing Automatisierung",
+            "views": "8",
+            "branch_code": "4"
+        },
+        {
+            "company": "PBU CAD-Systeme GmbH",
+            "views": "1",
+            "branch_code": "6.2.1"
+        },
+        {
+            "company": "Schwartz Stahl GmbH",
+            "views": "6",
+            "branch_code": "5.8"
+        },
+        {
+            "company": "SonarData Technologies Inc.",
+            "views": "8",
+            "branch_code": "3.1"
+        },
+        {
+            "company": "Bartz Werkzeuge AG",
+            "views": "3",
+            "branch_code": "1.0"
+        },
+        {
+            "company": "CreaTixMix Fairs",
+            "views": "1",
+            "branch_code": "2.7"
+        }
+    ],
+    "topCondition": [
+        {
+            "condition": "Headerimage Home",
+            "views": "320",
+            "type": "branch_code"
+        },
+        {
+            "condition": "Contact Form Main",
+            "views": "506",
+            "type": "branch_code"
+        },
+        {
+            "condition": "Prize Table Landingpage",
+            "views": "187",
+            "type": "branch_code"
+        },
+        {
+            "condition": "Branch - Landinpage",
+            "views": "143",
+            "type": "branch_code"
+        },
+        {
+            "condition": "Welcome Text",
+            "views": "102",
+            "type": "UTM"
+        },
+        {
+            "condition": "Redirect - Productpage",
+            "views": "265",
+            "type": "branch_code"
+        },
+        {
+            "condition": "Downloadlink",
+            "views": "43",
+            "type": "Geo"
+        },
+        {
+            "condition": "Sales Representive",
+            "views": "153",
+            "type": "branch_code"
+        },
+        {
+            "condition": "Event Notice",
+            "views": "175",
+            "type": "Geo"
+        },
+        {
+            "condition": "Campaign Subline",
+            "views": 271,
+            "type": "UTM"
+        }
+    ]
+}
